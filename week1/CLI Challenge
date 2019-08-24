@@ -1,0 +1,17 @@
+CLI CHALLENGE 
+Q1: How do i create a hidden file or folder?
+A1: You can create a folder by using mkdir command. If you want the folder that you'll create hidden, you must use mkdir command but there must be a '.'(dot) before your foldername. For ex: 'mkdir .folderfoldername'.
+And also You can create a file, by using touch command.  If you want the file that you'll create hidden, you must use touch command but there must be a '.'(dot) before your file name. For ex: 'touch .filename.exe'
+
+Q2:HOw do i display it in the CLI?
+A2: 'ls -a' command will show all hidden files
+
+Q3:How do i create multiple nested directories' like /c/users/myusername/these/folders/are/just/for/fun? 
+A3: You must type 'mkdir -p /c/users/myusername/these/folders/are/just/for/fun'
+
+Q4: How do i append a message to a file, without a newline character, so the output would be:
+
+first message
+second message?
+
+A4: To append a message to a file you can type two times. But you must type bigger than character two times (>>) if you append the message without a newline character. For ex: ' echo "first message"> "file name" and then echo "second message" >> "file name". And also you can do this with the newline character which can be typed like '\'(backslash) and 'n' 

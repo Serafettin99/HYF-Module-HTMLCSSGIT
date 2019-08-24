@@ -1,12 +1,13 @@
-CLI CHALLENGE 
+CLI CHALLENGE
+
 Q1: How do i create a hidden file or folder?
 A1: You can create a folder by using mkdir command. If you want the folder that you'll create hidden, you must use mkdir command but there must be a '.'(dot) before your foldername. For ex: 'mkdir .folderfoldername'.
 And also You can create a file, by using touch command.  If you want the file that you'll create hidden, you must use touch command but there must be a '.'(dot) before your file name. For ex: 'touch .filename.exe'
 
-Q2:HOw do i display it in the CLI?
+Q2: How do i display it in the CLI?
 A2: 'ls -a' command will show all hidden files
 
-Q3:How do i create multiple nested directories' like /c/users/myusername/these/folders/are/just/for/fun? 
+Q3: How do i create multiple nested directories' like /c/users/myusername/these/folders/are/just/for/fun? 
 A3: You must type 'mkdir -p /c/users/myusername/these/folders/are/just/for/fun'
 
 Q4: How do i append a message to a file, without a newline character, so the output would be:

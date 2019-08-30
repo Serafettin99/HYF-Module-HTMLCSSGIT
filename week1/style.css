@@ -3,46 +3,55 @@
     padding: 0px;
 }
 
+body, a, nav, footer {
+    color: #f2f2f2;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-image: url(https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    color: #f2f2f2;
+}
 
+header, .content, a {
+    font-size: 2rem;
+}
+
+header, nav, .content, .cartoons {
+    border-radius: 20px;
 }
 
 header {
-    font-size: 4rem;    
     width: 100%;
     height: 5em;
     background-color: rgba(171, 242, 204, 0.37);
-    border-radius: 20px;
-    
+    font-size: 4rem;    
 }
+
 header p {
     position: absolute;
     top: 20px;
     left: 40px;
-    
 }
+
 h1 {
     font-family: 'Libre Baskerville', serif;
     margin-bottom: 100px;
 }
-ul {
-    list-style-type: none;
+
+ul, nav li {
+    list-style-type: none
 }
 
-a {
-    color: #f2f2f2;
+a, .fa {
     text-decoration: none;
-    font-size: 2rem;
 }
-nav a:hover {
-        opacity: 0.5;
+
+nav a:hover, .fa:hover {
+    opacity: 0.5;
 }
+
 nav li {
     margin: 40px 20px 0 0;
-    list-style-type: none;
 }
 
 #home {
@@ -53,12 +62,14 @@ table {
     margin-right: 20px;
     width: 70%;
 }
+
 progress {
     -webkit-appearance: none;
     appearance: none;
     width: 250px;
     height: 20px;
 }
+
 .punto {
     width: 100%;
     height: 30px;
@@ -67,18 +78,16 @@ progress {
 }
 
 nav {
-    background-color: rgba(145, 146, 232, 0.9);
+    background-color: rgba(127, 128, 190, 0.9);
     padding: 20px;
     padding-top: 4%;
     text-align: left;
-    color: #f2f2f2;
     margin-bottom: 61px;
     position: sticky;
     top: 1px;
     margin-top: 1px;
     width: fit-content;
     height: -webkit-fill-available;
-    border-radius: 20px;
     border-top: solid white;
     border-right: solid white;
     float: left;
@@ -86,18 +95,13 @@ nav {
 
 .content {
     background-color: rgba(226, 174, 116, 0.8);
-    font-size: 2rem;
     padding: 30px 15px 30px 60px;
     margin:1px 20px 40px 237px;
     width: 84%;
     height: 500px;
     border-top: solid white;
-    border-radius: 20px;
     border-right: solid white;
-    
-    
 }
-
 
 .images {
     
@@ -114,7 +118,6 @@ nav {
 }
 
 .cartoons {
-    border-radius: 20px;
     bottom: 170px;
     right: 60px;
 }
@@ -122,10 +125,12 @@ nav {
 .uls {
     margin-bottom: 44px;
 }
+
 .beside-img {
     margin:15px;
     width: 50%
 }
+
 #icons {
     float: right;
     width: 50%;
@@ -139,38 +144,36 @@ address {
     display: inline;
     float: left;
     line-height: 1em;
-
 }
 
 .fa {
     padding: 12px;
     text-align: center;
-    text-decoration: none;
     border-radius: 50%;
 }
-.fa:hover {
-    opacity: 0.5;
+
+.fa-facebook, .fa-twitter, .fa-google, .fa-github, .fa-slack {
+    color: white;
 }
+
 .fa-facebook {
     background: #3B5998;
-    color: white;
 }
+
 .fa-twitter {
     background: #55ACEE;
-    color: white;
-  }
+}
   
 .fa-google {
     background: #dd4b39;
-    color: white;
 }
+
 .fa-github {
     background: white;
-      color: black;
 }
+
 .fa-slack {
     background: blue;
-    color: white;
 }
 
 footer {
